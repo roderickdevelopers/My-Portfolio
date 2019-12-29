@@ -1,4 +1,6 @@
+@import 'variables/variables';
 @import 'ember-paper';
 @import 'index';
-@import "ember-modal-dialog/ember-modal-structure.css";
-@import "ember-modal-dialog/ember-modal-appearance.css";
+@import 'navigation/menubar';
+@import 'body';
+@import 'card/flipcard';
