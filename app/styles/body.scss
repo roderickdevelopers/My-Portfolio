@@ -1,0 +1,54 @@
+.main_logo_container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 415px;
+}
+
+.main_cards_container {
+    display: flex;
+
+    .main_cards_info_container{
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .main_cards_flipcard {
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .main_cards_flipcard_info {
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            // below is how you call a varaible 
+            width: $card_width;
+            margin: 40px;
+
+        }
+    }
+}
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  
+  }
+
+  
