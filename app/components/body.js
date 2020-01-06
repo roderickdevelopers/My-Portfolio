@@ -1,17 +1,17 @@
 import Component from '@ember/component';
 
 export default Component.extend({
-    imageFrontCardOne: '/assets/images/githublogo1.png',
-    imageBackCardOne: '/assets/images/embercode.png',
+    imageFrontCardOne: '/assets/images/embercard.png',
+    imageBackCardOne: '/assets/images/embercardback.png',
 
-    imageFrontCardTwo: '/assets/images/emberlogo1.png',
-    imageBackCardTwo: '/assets/images/emberlogo1back.png',
+    imageFrontCardTwo: '/assets/images/githubcard.png',
+    imageBackCardTwo: '/assets/images/githubbackcard.png',
 
-    imageFrontCardThree: '/assets/images/emberlogo1.png',
-    imageBackCardThree: '/assets/images/emberlogo1back.png',
+    imageFrontCardThree: '/assets/images/visualcodecard.png',
+    imageBackCardThree: '/assets/images/visualcodecardback.png',
 
-    imageFrontCardFour: '/assets/images/emberlogo1.png',
-    imageBackCardFour: '/assets/images/emberlogo1back.png',
+    imageFrontCardFour: '/assets/images/sketchcard.png',
+    imageBackCardFour: '/assets/images/sketchbackcard.png',
 
     imageFrontCardFive: '/assets/images/emberlogo1.png',
     imageBackCardFive: '/assets/images/emberlogo1back.png',
@@ -23,6 +23,6 @@ export default Component.extend({
     imageBackCardSeven: '/assets/images/emberlogo1back.png',
 
     imageFrontCardEight: '/assets/images/emberlogo1.png',
-    imageBackCardEight: '/assets/images/emberlogo1back.png',
+    imageBackCardEight: '/assets/images/emberlogo1back.png'
     
 });

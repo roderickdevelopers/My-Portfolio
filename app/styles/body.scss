@@ -1,6 +1,13 @@
 // div {
 //   border:1px solid red !important;
 //   }
+body {
+	width: 100%;
+	height: 100%;
+	min-height: 100%;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
 
 //Not using bottom height code anymore but might use it for logo
 .main_logo_container {
@@ -10,11 +17,13 @@
   align-items: center;
   width: 100%;
   height: 100px;
+  
   // background-color: #3f51b5;
 }
 
 .main_cards_container {
     display: flex;
+    
 
     .main_cards_info_container{
         display: flex;
@@ -22,6 +31,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        
         
         .main_cards_flipcard {
             flex: 1;
