@@ -18,11 +18,14 @@ body {
   width: 100%;
   height: 100px;
   
+
+  
   // background-color: #3f51b5;
 }
 
 .main_cards_container {
     display: flex;
+    
     
 
     .main_cards_info_container{
@@ -40,6 +43,7 @@ body {
         }
         
         .main_cards_flipcard_info {
+          display: none;
             flex: 1;
             justify-content: center;
             align-items: center;
