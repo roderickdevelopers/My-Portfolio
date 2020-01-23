@@ -10,17 +10,61 @@ body {
 }
 
 .main_logo {
+  box-sizing: content-box;
   position: relative;
-  right: 620px;
+  width: 85%;
+  height: 70%;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 5%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 700px;
   text-align: center;
   font-family: arial;
   padding: 100px;
   
 }
+
+.toptext {
+  position: relative;
+  bottom: 250px;
+  font-size: 50px;
+  color: white;
+  text-decoration: underline overline;
+  text-decoration-color: white;
+  // font-family: 'Gochi Hand', cursive;
+  
+
+  
+
+
+}
+
+.bottomtext {
+  position: relative;
+  bottom: 210px;
+  font-size: 50px;
+  color: #448aff;
+  text-decoration: underline overline;
+  text-decoration-color: #448aff;
+  // font-family: 'Gochi Hand', cursive;
+  
+
+}
+
+
+.profilecard {
+  position: relative;
+  right: 720px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profilecard:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+
 
 //Not using bottom height code anymore but might use it for logo
 .main_logo_container {
@@ -29,7 +73,7 @@ body {
   justify-content: left;
   align-items: center;
   width: 100%;
-  height: 500px;
+  height: 400px;
   background-image: linear-gradient(to bottom, #448aff, #387ff2, #2b74e5, #1b69d8, #005ecb);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   
@@ -43,7 +87,7 @@ body {
 
 .main_cards_container {
     display: flex;
-    background-color: #fafafa;
+    background-color: white;
     
     
 
