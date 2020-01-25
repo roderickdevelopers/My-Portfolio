@@ -219,6 +219,7 @@ body {
 
 #backtopbutton {
   position: fixed;
+  scroll-behavior: smooth;
   bottom: 10px;
   float: right;
   right: 18.5%;
