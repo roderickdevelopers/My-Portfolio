@@ -35,9 +35,9 @@ module.exports = {
         'server/**/*.js'
       ],
       parserOptions: {
-        sourceType: 'script'
+        sourceType: 'script' 
       },
-      env: {
+      env: { 
         browser: false,
         node: true
       },
