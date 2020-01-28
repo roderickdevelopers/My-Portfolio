@@ -10,6 +10,9 @@ body {
 }
 
 
+
+
+
 .main_logo {
   box-sizing: content-box;
   position: relative;
@@ -36,7 +39,7 @@ body {
   text-decoration-color: white;
   // font-family: 'Gochi Hand', cursive;
   -webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-  animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+   animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
 }
 
 
@@ -44,36 +47,31 @@ body {
   0% {
     letter-spacing: 1em;
     -webkit-transform: translateZ(400px) translateY(-300px);
-    transform: translateZ(400px) translateY(-300px);
+            transform: translateZ(400px) translateY(-300px);
     opacity: 0;
   }
-
   40% {
     opacity: 0.6;
   }
-
   100% {
     -webkit-transform: translateZ(0) translateY(0);
-    transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
-
 @keyframes tracking-in-contract-bck-top {
   0% {
     letter-spacing: 1em;
     -webkit-transform: translateZ(400px) translateY(-300px);
-    transform: translateZ(400px) translateY(-300px);
+            transform: translateZ(400px) translateY(-300px);
     opacity: 0;
   }
-
   40% {
     opacity: 0.6;
   }
-
   100% {
     -webkit-transform: translateZ(0) translateY(0);
-    transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
@@ -90,44 +88,39 @@ body {
   text-decoration-color: #448aff;
   // font-family: 'Gochi Hand', cursive;
   -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-  animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-
+	        animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  
 }
 
 @-webkit-keyframes tracking-in-contract-bck-bottom {
   0% {
     letter-spacing: 1em;
     -webkit-transform: translateZ(400px) translateY(300px);
-    transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
     opacity: 0;
   }
-
   40% {
     opacity: 0.6;
   }
-
   100% {
     -webkit-transform: translateZ(0) translateY(0);
-    transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
-
 @keyframes tracking-in-contract-bck-bottom {
   0% {
     letter-spacing: 1em;
     -webkit-transform: translateZ(400px) translateY(300px);
-    transform: translateZ(400px) translateY(300px);
+            transform: translateZ(400px) translateY(300px);
     opacity: 0;
   }
-
   40% {
     opacity: 0.6;
   }
-
   100% {
     -webkit-transform: translateZ(0) translateY(0);
-    transform: translateZ(0) translateY(0);
+            transform: translateZ(0) translateY(0);
     opacity: 1;
   }
 }
@@ -157,6 +150,15 @@ body {
 
 //Not using bottom height code anymore but might use it for logo
 .main_logo_container {
+  // margin: auto;
+  // display: flex;
+  // justify-content: left;
+  // width: 378%;
+  // align-items: center;
+  // height: 300px;
+  // background-image: linear-gradient(to bottom, #448aff, #387ff2, #2b74e5, #1b69d8, #005ecb);
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  // use this code for large screen
   margin: auto;
   display: flex;
   justify-content: left;
@@ -226,7 +228,6 @@ body {
 
 #backtopbutton {
   position: fixed;
-  scroll-behavior: smooth;
   bottom: 10px;
   float: right;
   right: 18.5%;
@@ -241,91 +242,76 @@ body {
   //change shape below
   border-radius: 4px;
   transition-duration: 0.4s;
-  -webkit-animation: shake-tr 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
-  animation: shake-tr 3s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+  -webkit-animation: shake-tr 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+	animation: shake-tr 2s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
 }
 
 @-webkit-keyframes shake-tr {
-
   0%,
   100% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
     -webkit-transform-origin: 100% 0;
-    transform-origin: 100% 0;
+            transform-origin: 100% 0;
   }
-
   10% {
     -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
+            transform: rotate(2deg);
   }
-
   20%,
   40%,
   60% {
     -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
-
   30%,
   50%,
   70% {
     -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
+            transform: rotate(4deg);
   }
-
   80% {
     -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
-
   90% {
     -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 }
-
 @keyframes shake-tr {
-
   0%,
   100% {
     -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
+            transform: rotate(0deg);
     -webkit-transform-origin: 100% 0;
-    transform-origin: 100% 0;
+            transform-origin: 100% 0;
   }
-
   10% {
     -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
+            transform: rotate(2deg);
   }
-
   20%,
   40%,
   60% {
     -webkit-transform: rotate(-4deg);
-    transform: rotate(-4deg);
+            transform: rotate(-4deg);
   }
-
   30%,
   50%,
   70% {
     -webkit-transform: rotate(4deg);
-    transform: rotate(4deg);
+            transform: rotate(4deg);
   }
-
   80% {
     -webkit-transform: rotate(-2deg);
-    transform: rotate(-2deg);
+            transform: rotate(-2deg);
   }
-
   90% {
     -webkit-transform: rotate(2deg);
-    transform: rotate(2deg);
+            transform: rotate(2deg);
   }
 }
-
-
 #backtopbutton:hover {
   background-color: #83b9ff;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
