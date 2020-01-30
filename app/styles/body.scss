@@ -88,7 +88,7 @@ body {
   text-decoration-color: #448aff;
   // font-family: 'Gochi Hand', cursive;
   -webkit-animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-	        animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	animation: tracking-in-contract-bck-bottom 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
   
 }
 
@@ -130,10 +130,8 @@ body {
 
 .profilecard {
   display: flex;
-  // position: relative;
-  // right: 720px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 20%;
+  
 }
 
 
@@ -178,7 +176,13 @@ body {
 
 .main_cards_container {
   display: flex;
+  // flex-direction: column;
   background-color: white;
+
+
+  //use this code for large screen
+  // display: flex;
+  // background-color: white;
 
 
 
