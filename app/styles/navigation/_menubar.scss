@@ -7,9 +7,43 @@
   height: 40px;
   font-family: 'Roboto', sans-serif;
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+
+  @include xl {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  width: 100%;
+  display: flex;
+  height: 40px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+  }
+
+
+// use this code for large screen
+// .component_navigation_menubar_main_container {
+//   position: fixed;
+//   z-index: 99999;
+//   top: 0;
+//   width: 100%;
+//   display: flex;
+//   height: 40px;
+//   font-family: 'Roboto', sans-serif;
+//   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
   
 
-  .component_navigation_menubar_main_container_left {
+ .component_navigation_menubar_main_container_left {
+    display: flex;
+    flex: 0 0 50%;
+    background-color: #448aff;
+    justify-content: flex-start;
+    text-align: left;
+    align-items: center;
+    font-family: 'Gochi Hand', cursive;
+    font-size: smaller;
+    text-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+
+    @include xl {
     display: flex;
     flex: 0 0 70%;
     background-color: #448aff;
@@ -18,6 +52,18 @@
     font-family: 'Gochi Hand', cursive;
     font-size: larger;
     text-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
+    }
+
+// use this code for large screen
+  // .component_navigation_menubar_main_container_left {
+  //   display: flex;
+  //   flex: 0 0 70%;
+  //   background-color: #448aff;
+  //   justify-content: flex-start;
+  //   align-items: center;
+  //   font-family: 'Gochi Hand', cursive;
+  //   font-size: larger;
+  //   text-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
     
 
 
@@ -26,10 +72,25 @@
     .component_navigation_menubar_main_container_tab {
       text-align: center;
       color: white;
+      margin: 0 0 0 10px;
+      font-size: small;
+
+      @include xl {
+      text-align: center;
+      color: white;
       margin: 0 0 0 60px;
       font-size: larger;
+      }
 
     }
+    // use this code for large screen
+    // .component_navigation_menubar_main_container_tab {
+    //   text-align: center;
+    //   color: white;
+    //   margin: 0 0 0 60px;
+    //   font-size: larger;
+
+    // }
 
 
   }
@@ -37,6 +98,17 @@
   .component_navigation_menubar_main_container_right {
     display: flex;
     flex: 1;
+    font-size: small;
+
+    @include xl {
+    display: flex;
+    flex: 1;
+    font-size: large;
+    }
+    // use this code for large screen
+  // .component_navigation_menubar_main_container_right {
+  //   display: flex;
+  //   flex: 1;
     
     // box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 6px 10px 0 rgba(0,0,0,.14), 0 1px 18px 0 rgba(0,0,0,.12);
     // need to display everything to the right and horizontal
@@ -49,8 +121,34 @@
       flex-direction: column;
       width: 100%;
       text-align: center;
+      font-size: small;
+      background-color: #448aff;
+
+      @include xl {
+      display: flex;
+      align-items: center;
+      // Bottom line was changed from center to flex-end to make text stick to bottom
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      text-align: center;
       font-size: larger;
       background-color: #448aff;
+
+      
+      }
+
+     // use this code for large screen
+    // .component_navigation_menubar_main_container_tab {
+    //   display: flex;
+    //   align-items: center;
+    //   // Bottom line was changed from center to flex-end to make text stick to bottom
+    //   justify-content: center;
+    //   flex-direction: column;
+    //   width: 100%;
+    //   text-align: center;
+    //   font-size: larger;
+    //   background-color: #448aff;
 
 
 

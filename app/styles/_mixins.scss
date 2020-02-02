@@ -28,8 +28,8 @@
 
 
 // Custom devices
-@mixin rwd($screen) {
-    @media (min-width: $screen+'px') {
+@mixin xxl {
+    @media (min-width: #{$screen-xxl-min}) {
         @content;
     }
  }
