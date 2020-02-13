@@ -229,7 +229,7 @@ body {
 
     .main_cards_flipcard_info {
       //change to display cards underneath 
-      display: none;
+      display: flex;
       flex: 1;
       justify-content: center;
       align-items: center;
