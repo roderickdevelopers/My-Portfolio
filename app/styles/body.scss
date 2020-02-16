@@ -20,29 +20,10 @@ body {
 
 
 .main_logo {
-  box-sizing: content-box;
-  position: relative;
-  top: 60%;
-  width: 30%;
-  height: 1%;
-  margin: auto;
-  margin-top: -35%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  text-align: center;
-  font-family: arial;
-  padding: 100px;
+  margin-bottom: 10%;
 
   @include xl {
-    box-sizing: content-box;
-    position: relative;
-    width: 85%;
-    height: 70%;
-    margin: auto;
-    margin-top: -9%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    text-align: center;
-    font-family: arial;
-    padding: 100px;
+   margin-bottom: 10%;
   }
 
 }
@@ -115,19 +96,17 @@ body {
 .profilecard {
   display: flex;
   position: absolute;
-  left: 10px;
   bottom: 28%;
-  width: 30%;
+  width: 100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
   @include xl {
     display: flex;
-    // position: relative;
-    // right: 720px;
+    position: absolute;
+    top: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    left: 30px;
     bottom: 15%;
-    width: 15%;
+    width: 100%;
   }
 
 }
@@ -152,8 +131,6 @@ body {
   justify-content: left;
   width: 100%;
   align-items: center;
-  height: 300px;
-  background-image: linear-gradient(to bottom, #448aff, #387ff2, #2b74e5, #1b69d8, #005ecb);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
   @include xl {
@@ -162,8 +139,6 @@ body {
     justify-content: left;
     align-items: center;
     width: 100%;
-    height: 400px;
-    background-image: linear-gradient(to bottom, #448aff, #387ff2, #2b74e5, #1b69d8, #005ecb);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   }
 
@@ -269,7 +244,7 @@ body {
   height: 40px;
   font-size: 12px;
   border-color: rgba(85, 85, 85, 0.2);
-  background-color: #005ecb;
+  background-color: #65C9FF;
   padding: .5px;
   //change shape below
   border-radius: 4px;
@@ -288,7 +263,7 @@ body {
     height: 50px;
     font-size: 16px;
     border-color: rgba(85, 85, 85, 0.2);
-    background-color: #005ecb;
+    background-color: #65C9FF;
     padding: .5px;
     //change shape below
     border-radius: 4px;
@@ -382,6 +357,7 @@ body {
 }
 
 #backtopbutton:hover {
-  background-color: #83b9ff;
+  background-color: #65C9FF;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
 }
+

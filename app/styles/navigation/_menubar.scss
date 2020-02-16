@@ -5,7 +5,7 @@
   width: 100%;
   display: flex;
   height: 40px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Patrick Hand SC', cursive;
   box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
 
   @include xl {
@@ -15,7 +15,7 @@
     width: 100%;
     display: flex;
     height: 40px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Patrick Hand SC', cursive;
     box-shadow: 0 3px 5px -1px rgba(0, 0, 0, .2), 0 6px 10px 0 rgba(0, 0, 0, .14), 0 1px 18px 0 rgba(0, 0, 0, .12);
   }
 
@@ -24,7 +24,7 @@
   .component_navigation_menubar_main_container_left {
     display: flex;
     flex: 0 0 50%;
-    background-color: #448aff;
+    background-color: #65C9FF;
     justify-content: flex-start;
     text-align: left;
     align-items: center;
@@ -35,7 +35,7 @@
     @include xl {
       display: flex;
       flex: 0 0 70%;
-      background-color: #448aff;
+      background-color: #65C9FF;
       justify-content: flex-start;
       align-items: center;
       font-family: 'Gochi Hand', cursive;
@@ -47,13 +47,13 @@
 
     .component_navigation_menubar_main_container_tab {
       text-align: center;
-      color: white;
+      color: black;
       margin: 0 0 0 10px;
       font-size: small;
 
       @include xl {
         text-align: center;
-        color: white;
+        color: black;
         margin: 0 0 0 60px;
         font-size: larger;
       }
@@ -67,6 +67,7 @@
     display: flex;
     flex: 1;
     font-size: small;
+    
 
     @include xl {
       display: flex;
@@ -88,7 +89,7 @@
       width: 100%;
       text-align: center;
       font-size: small;
-      background-color: #448aff;
+      background-color: #65C9FF;
 
       @include xl {
         display: flex;
@@ -99,7 +100,7 @@
         width: 100%;
         text-align: center;
         font-size: larger;
-        background-color: #448aff;
+        background-color: #65C9FF;
 
 
 
@@ -113,6 +114,7 @@
 
       a {
         text-decoration: none;
+        color: black;
         position: relative;
 
       }
@@ -145,6 +147,7 @@
 
       a:visited {
         text-decoration: none;
+        color: black;
       }
 
       a:hover {
