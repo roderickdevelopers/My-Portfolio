@@ -7,7 +7,5 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function() {
-  this.route('certificates');
-  this.route('my-info');
-  this.route('extra');
+  this.route('github');
 });

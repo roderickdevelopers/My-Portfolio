@@ -86,7 +86,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    
 
     @include xl {
       display: flex;
@@ -94,7 +94,7 @@ body {
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 250px;
+      
     }
 
 
@@ -113,18 +113,6 @@ body {
 
     }
 
-
-    .main_cards_flipcard_info {
-      //change to display cards underneath 
-      display: none;
-      flex: 1;
-      justify-content: center;
-      align-items: center;
-      // below is how you call a varaible 
-      width: $card_width;
-      margin: 40px;
-
-    }
   }
 }
 
@@ -135,9 +123,6 @@ body {
 
 }
 
-.card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
 
 .container {
   padding: 2px 16px;
