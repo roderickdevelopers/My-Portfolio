@@ -13,11 +13,11 @@ export default Component.extend({
     imageFrontCardFour: '/assets/images/sketch.png',
     imageBackCardFour: '/assets/images/sketchback.png',
 
-    imageFrontCardFive: '/assets/images/css.png',
-    imageBackCardFive: '/assets/images/cssback.png',
+    imageFrontCardFive: '/assets/images/html5.png',
+    imageBackCardFive: '/assets/images/html5back.png',
 
-    imageFrontCardSix: '/assets/images/html5.png',
-    imageBackCardSix: '/assets/images/html5back.png',
+    imageFrontCardSix: '/assets/images/css.png',
+    imageBackCardSix: '/assets/images/cssback.png',
 
     imageFrontCardSeven: '/assets/images/js.png',
     imageBackCardSeven: '/assets/images/jsback.png',
