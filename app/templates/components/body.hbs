@@ -1,5 +1,9 @@
  <div class="header">
-   Roderick Developers
+   <p>Roderick Developers</p>
+ </div>
+
+ <div class="header_body">
+   <p>roderickdevelopers.com</p>
  </div>
  
  <div class="p_one">
@@ -46,7 +50,7 @@
  <div class="main_cards_info_container">
     <div class="main_cards_flipcard">
       <LinkTo @route="ember">
-       <Card::Flipcard  @imageFront={{imageFrontCardOne}} @imageBack={{imageBackCardOne}} />
+       <Card::Flipcard  @imageFront={{this.imageFrontCardOne}} @imageBack={{this.imageBackCardOne}} />
       </LinkTo> 
     </div>
   </div>
@@ -54,7 +58,7 @@
 <div class="main_cards_info_container">
     <div class="main_cards_flipcard">
       <LinkTo @route="github">
-      <Card::Flipcard @imageFront={{imageFrontCardTwo}} @imageBack={{imageBackCardTwo}} />
+      <Card::Flipcard @imageFront={{this.imageFrontCardTwo}} @imageBack={{this.imageBackCardTwo}} />
       </LinkTo> 
     </div>
   </div>
@@ -62,7 +66,7 @@
 <div class="main_cards_info_container">
     <div class="main_cards_flipcard">
       <LinkTo @route="studiocode">
-      <Card::Flipcard @imageFront={{imageFrontCardThree}} @imageBack={{imageBackCardThree}} />
+      <Card::Flipcard @imageFront={{this.imageFrontCardThree}} @imageBack={{this.imageBackCardThree}} />
       </LinkTo>
     </div>
   </div>
@@ -70,7 +74,7 @@
 <div class="main_cards_info_container">
     <div class="main_cards_flipcard">
       <LinkTo @route="sketch">
-      <Card::Flipcard @imageFront={{imageFrontCardFour}} @imageBack={{imageBackCardFour}} />
+      <Card::Flipcard @imageFront={{this.imageFrontCardFour}} @imageBack={{this.imageBackCardFour}} />
       </LinkTo>
     </div>
   </div>
@@ -83,7 +87,7 @@
  <div class="main_cards_info_container">
     <div class="main_cards_flipcard">
       <LinkTo @route="html">
-      <Card::Flipcard @imageFront={{imageFrontCardFive}} @imageBack={{imageBackCardFive}} />
+      <Card::Flipcard @imageFront={{this.imageFrontCardFive}} @imageBack={{this.imageBackCardFive}} />
       </LinkTo>
     </div>
   </div>
@@ -91,7 +95,7 @@
 <div class="main_cards_info_container">
     <div class="main_cards_flipcard">
       <LinkTo @route="css">
-      <Card::Flipcard @imageFront={{imageFrontCardSix}} @imageBack={{imageBackCardSix}} />
+      <Card::Flipcard @imageFront={{this.imageFrontCardSix}} @imageBack={{this.imageBackCardSix}} />
       </LinkTo>
     </div>
   </div>
@@ -99,7 +103,7 @@
 <div class="main_cards_info_container">
     <div class="main_cards_flipcard">
       <LinkTo @route="java">
-      <Card::Flipcard @imageFront={{imageFrontCardSeven}} @imageBack={{imageBackCardSeven}} />
+      <Card::Flipcard @imageFront={{this.imageFrontCardSeven}} @imageBack={{this.imageBackCardSeven}} />
       </LinkTo>
     </div>
   </div>
@@ -107,7 +111,7 @@
 <div class="main_cards_info_container">
     <div class="main_cards_flipcard">
       <LinkTo @route="jquery">
-      <Card::Flipcard @imageFront={{imageFrontCardEight}} @imageBack={{imageBackCardEight}} />
+      <Card::Flipcard @imageFront={{this.imageFrontCardEight}} @imageBack={{this.imageBackCardEight}} />
       </LinkTo>
     </div>
   </div>
