@@ -20,6 +20,13 @@
         @content;
     }
  }
+
+  // Larger devices
+  @mixin lg1 {
+    @media (min-width: #{$screen-lg-min}) {
+        @content;
+    }
+ }
  
  // Extra large devices
  @mixin xl {

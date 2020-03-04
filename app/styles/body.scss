@@ -50,6 +50,7 @@ body {
   display: flex;
   flex: 1;
   justify-content: flex-end;
+  
 
   .linkedin_button {}
 
@@ -66,11 +67,20 @@ body {
     opacity: .5;
   }
 
+  @include xxl {
+    margin-top: 300px;
+  }
+
 }
 
 
 .p_one {
   text-align: center;
+
+  @include xxl {
+    font-size: x-large;
+    margin-top: 50px;
+  }
 }
 
 // .profilecard {}
@@ -96,14 +106,27 @@ body {
     width: calc(100% - 100px)
   }
 
+  @include lg1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    width: calc(100% - 200px)
+  }
+
 
   @include xl {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: white;
+    width: calc(100% - 0px)
+   }
 
+   @include xxl {
+     display: flex;
 
-  }
+   }
 
 }
 
