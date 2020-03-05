@@ -1,5 +1,15 @@
 .skills_header {
     text-align: center;
+
+    a{
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: black;
+        
+        
+    }
 }
 
 .skills_body {
