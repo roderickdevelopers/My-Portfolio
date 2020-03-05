@@ -1,0 +1,45 @@
+.skills_header {
+    text-align: center;
+
+    a{
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: black;
+        
+        
+    }
+}
+
+.skills_body {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.skills_image_container {
+    display: flex;
+    text-align: center;
+    font-size: larger;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+    .skills_image {
+        width: 50%;
+        // background-color: blue;
+        
+        
+        img {
+            max-width: 100%;
+            
+
+        }
+    }
+}

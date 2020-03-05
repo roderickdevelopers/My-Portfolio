@@ -1,11 +1,22 @@
 .flip-card {
+  display: flex;
   width: 300px;
   height: 300px;
   perspective: 1000px;
-  
+
+  @include xxl {
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+
+  }
+
 }
 
 .flip-card-inner {
+  display: flex;
   position: relative;
   width: 100%;
   height: 100%;
@@ -21,6 +32,7 @@
 
 .flip-card-front,
 .flip-card-back {
+  display: flex;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -30,15 +42,31 @@
 .flip-card-front {
   color: black;
   background-color: white;
-  
-  
+  justify-content: center;
+  align-items: center;
   
 
-  img {
-    width: 300px;
-    height: 300px;
+
+
+  .flip_card_front_image_container {
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 300px;
+      height: 300px;
+      align-self: center;
+      
+    }
   }
+
+
+
+
+
 }
+
+
 
 .flip-card-back {
   background-color: white;

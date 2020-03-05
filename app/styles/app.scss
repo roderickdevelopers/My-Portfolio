@@ -1,5 +1,9 @@
+@import 'mixins';
+@import 'breakpoints';
 @import 'variables/variables';
 @import 'index';
-@import 'navigation/menubar';
 @import 'body';
 @import 'card/flipcard';
+@import 'keyframes';
+@import 'home';
+@import 'skills';

@@ -1,28 +1,28 @@
 import Component from '@ember/component';
 
 export default Component.extend({
-    imageFrontCardOne: '/assets/images/embercard.png',
-    imageBackCardOne: '/assets/images/embercardback.png',
+    imageFrontCardOne: '/assets/images/tomster.png',
+    imageBackCardOne: '/assets/images/emberbackcard.png',
 
-    imageFrontCardTwo: '/assets/images/githubcard.png',
+    imageFrontCardTwo: '/assets/images/github.png',
     imageBackCardTwo: '/assets/images/githubbackcard.png',
 
-    imageFrontCardThree: '/assets/images/visualcodecard.png',
-    imageBackCardThree: '/assets/images/visualcodecardback.png',
+    imageFrontCardThree: '/assets/images/studiocode.png',
+    imageBackCardThree: '/assets/images/studiocodeback.png',
 
-    imageFrontCardFour: '/assets/images/sketchcard.png',
-    imageBackCardFour: '/assets/images/sketchbackcard.png',
+    imageFrontCardFour: '/assets/images/sketch.png',
+    imageBackCardFour: '/assets/images/sketchback.png',
 
-    imageFrontCardFive: '/assets/images/emberlogo1.png',
-    imageBackCardFive: '/assets/images/emberlogo1back.png',
+    imageFrontCardFive: '/assets/images/html5.png',
+    imageBackCardFive: '/assets/images/html5back.png',
 
-    imageFrontCardSix: '/assets/images/emberlogo1.png',
-    imageBackCardSix: '/assets/images/emberlogo1back.png',
+    imageFrontCardSix: '/assets/images/css.png',
+    imageBackCardSix: '/assets/images/cssback.png',
 
-    imageFrontCardSeven: '/assets/images/emberlogo1.png',
-    imageBackCardSeven: '/assets/images/emberlogo1back.png',
+    imageFrontCardSeven: '/assets/images/js.png',
+    imageBackCardSeven: '/assets/images/jsback.png',
 
-    imageFrontCardEight: '/assets/images/emberlogo1.png',
-    imageBackCardEight: '/assets/images/emberlogo1back.png'
+    imageFrontCardEight: '/assets/images/jquery.png',
+    imageBackCardEight: '/assets/images/jqueryback.png'
     
 });
