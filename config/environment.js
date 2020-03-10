@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'roderick-developers',
     environment,
     rootURL: '/',
-    locationType: 'auto',
+    locationType: 'hash',
     // place google fonts here to call them later
     googleFonts: [
       'Open+Sans:300,400,700',
