@@ -14,5 +14,5 @@ Router.map(function() {
   this.route('css');
   this.route('html');
   this.route('java');
-  this.route('jquery');
+  this.route('freecodecamp');
 });

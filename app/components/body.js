@@ -22,7 +22,7 @@ export default Component.extend({
     imageFrontCardSeven: '/assets/images/js.png',
     imageBackCardSeven: '/assets/images/jsback.png',
 
-    imageFrontCardEight: '/assets/images/jquery.png',
-    imageBackCardEight: '/assets/images/jqueryback.png'
+    imageFrontCardEight: '/assets/images/freecodecampfront.png',
+    imageBackCardEight: '/assets/images/freecodecampback.png'
     
 });
