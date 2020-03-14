@@ -49,9 +49,8 @@ body {
   flex: 1;
   margin-top: 6px;
   margin-bottom: 30px;
-  // justify-content: flex-end;
   
-
+  
   .linkedin_button {}
 
   .linkedin_button:hover {
@@ -68,7 +67,6 @@ body {
   }
   
   
-
   @include xxl {
     
   }
@@ -89,7 +87,7 @@ body {
   }
 }
 
-// .profilecard {}
+
 
 
 .main_cards_container {
