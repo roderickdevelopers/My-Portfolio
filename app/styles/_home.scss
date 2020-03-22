@@ -3,6 +3,7 @@
   flex: 1;
   align-items: center;
   min-height: auto;
+  background-color: #E0E5EC;
 
   .main_logo {
     flex: 1;
@@ -14,18 +15,18 @@
     img {
       display: none;
       width: 100%;
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
       @include md {
         display: block;
         top: 0px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       }
 
      @include xl {
         display: flex;
         top: 0px;
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
         max-width: 100%;
         height: auto;
       }
