@@ -35,6 +35,13 @@
     }
  }
 
+  // Large Laptop
+  @mixin xl1 {
+    @media (min-width: #{$screen-xl1-min}) {
+        @content;
+    }
+ }
+
 
 // Custom devices
 @mixin xxl {

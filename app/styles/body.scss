@@ -50,37 +50,37 @@ body {
 
 }
 
-.main_button_container {
-  display: flex;
-  flex: 1;
-  margin-top: 6px;
-  margin-bottom: 30px;
-  background-color: #e0e5ec;
-  // justify-content: flex-end;
+// .main_button_container {
+//   display: flex;
+//   flex: 1;
+//   margin-top: 6px;
+//   margin-bottom: 30px;
+//   background-color: #e0e5ec;
+//   // justify-content: flex-end;
   
 
-  .linkedin_button {}
+//   .linkedin_button {}
 
-  .linkedin_button:hover {
-    opacity: .5;
-  }
+//   .linkedin_button:hover {
+//     opacity: .5;
+//   }
 
-  .github_button {
-    margin-left: 10px;
+//   .github_button {
+//     margin-left: 10px;
 
-  }
+//   }
 
-  .github_button:hover {
-    opacity: .5;
-  }
+//   .github_button:hover {
+//     opacity: .5;
+//   }
   
   
 
-  @include xxl {
+//   @include xxl {
     
-  }
+//   }
 
-}
+// }
 
 
 .p_one {
@@ -135,7 +135,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     background-color: #e0e5ec;
-
     width: calc(100% - 0px)
    }
 
