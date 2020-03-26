@@ -40,11 +40,6 @@ body {
   @include xl {
     font-size: larger;
   }
-
-  // @include xxl {
-  //   font-size: xx-large;
-  //   margin-top: 50px;
-  // }
 }
 
 // .profilecard {}
@@ -78,20 +73,6 @@ body {
     background-color: #e0e5ec;
     width: calc(100% - 0px)
   }
-
-
-  // @include xl {
-  //   display: flex;
-  //   flex-direction: row;
-  //   flex-wrap: wrap;
-  //   background-color: #e0e5ec;
-  //   width: calc(100% - 0px)
-  //  }
-
-  //  @include xxl {
-  //    display: flex;
-
-  //  }
 
 }
 
@@ -133,20 +114,14 @@ body {
 
 }
 
-.card {
-  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  // box-shadow: -9px -9px 16px #ffffff, 9px 9px 16px #a3b1c6;
+// .card {
+//   transition: 0.3s;
+//   width: 100%;
+// }
 
-  transition: 0.3s;
-  width: 100%;
-
-}
-
-
-.container {
-  padding: 2px 16px;
-
-}
+// .container {
+//   padding: 2px 16px;
+// }
 
 
 
