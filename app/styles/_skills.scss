@@ -1,9 +1,9 @@
 .skills_header {
     text-align: center;
 
-    @include xxl {
-        font-size: xx-large;
-    }
+    // @include xxl {
+    //     font-size: xx-large;
+    // }
     
 
     a{
@@ -24,9 +24,9 @@
     font-size: larger;
     margin-bottom: 100px;
 
-    @include xxl {
-        font-size: x-large;
-    }
+    // @include xxl {
+    //     font-size: x-large;
+    // }
 
 }
 
@@ -51,9 +51,9 @@
             font-size: x-large;
         }
 
-        @include xxl {
-            font-size: xx-large;
-        }
+        // @include xxl {
+        //     font-size: xx-large;
+        // }
         
         
         img {

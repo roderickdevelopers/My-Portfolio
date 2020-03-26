@@ -22,30 +22,30 @@
  }
 
   // Larger devices
-  @mixin lg1 {
-    @media (min-width: #{$screen-lg-min}) {
-        @content;
-    }
- }
- 
- // Extra large devices
- @mixin xl {
+  @mixin xl {
     @media (min-width: #{$screen-xl-min}) {
         @content;
     }
  }
+ 
+//  // Extra large devices
+//  @mixin xl {
+//     @media (min-width: #{$screen-xl-min}) {
+//         @content;
+//     }
+//  }
 
-  // Large Laptop
-  @mixin xl1 {
-    @media (min-width: #{$screen-xl1-min}) {
-        @content;
-    }
- }
+//   // Large Laptop
+//   @mixin xl1 {
+//     @media (min-width: #{$screen-xl1-min}) {
+//         @content;
+//     }
+//  }
 
 
-// Custom devices
-@mixin xxl {
-    @media (min-width: #{$screen-xxl-min}) {
-        @content;
-    }
- }
+// // Custom devices
+// @mixin xxl {
+//     @media (min-width: #{$screen-xxl-min}) {
+//         @content;
+//     }
+//  }
