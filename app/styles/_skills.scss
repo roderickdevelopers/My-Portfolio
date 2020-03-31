@@ -1,65 +1,75 @@
 .skills_header {
-    text-align: center;
+  text-align: center;
 
-    // @include xxl {
-    //     font-size: xx-large;
-    // }
-    
+  a {
+    text-decoration: none;
+  }
 
-    a{
-        text-decoration: none;
-    }
+  a:visited {
+    color: black;
+  }
 
-    a:visited {
-        color: black;
-        
-        
-    }
+  hr {
+    height: 2px;
+    border: 0;
+    border-top: 3px solid #000000;
+  }
 }
 
 .skills_body {
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: larger;
+  margin-bottom: 100px;
+
+  @include xl {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: larger;
+    font-size: x-large;
     margin-bottom: 100px;
-
-    // @include xxl {
-    //     font-size: x-large;
-    // }
-
+  }
 }
 
 .skills_image_container {
+  display: none;
+  text-align: center;
+  font-size: larger;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+
+  @include md {
     display: flex;
     text-align: center;
     font-size: larger;
     flex: 1;
     justify-content: center;
     align-items: center;
+  }
+
+  @include xl {
+    display: flex;
+    text-align: center;
+    font-size: larger;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
 
 
+  .skills_image {
+    width: 50%;
+    font-weight: bolder;
 
 
-
-    .skills_image {
-        width: 50%;
-        font-weight: bolder;
-        
-
-        @include xl {
-            font-size: x-large;
-        }
-
-        // @include xxl {
-        //     font-size: xx-large;
-        // }
-        
-        
-        img {
-            max-width: 100%;
-            
-
-        }
+    @include xl {
+      font-size: xx-large;
     }
+
+    img {
+      max-width: 100%;
+    }
+  }
 }

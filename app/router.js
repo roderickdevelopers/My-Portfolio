@@ -13,6 +13,6 @@ Router.map(function() {
   this.route('sketch');
   this.route('css');
   this.route('html');
-  this.route('java');
+  this.route('javascript');
   this.route('freecodecamp');
 });
