@@ -1,5 +1,3 @@
-
-
 // Small devices
 @mixin sm {
     @media (min-width: #{$screen-sm-min}) {
@@ -28,24 +26,3 @@
     }
  }
  
-//  // Extra large devices
-//  @mixin xl {
-//     @media (min-width: #{$screen-xl-min}) {
-//         @content;
-//     }
-//  }
-
-//   // Large Laptop
-//   @mixin xl1 {
-//     @media (min-width: #{$screen-xl1-min}) {
-//         @content;
-//     }
-//  }
-
-
-// // Custom devices
-// @mixin xxl {
-//     @media (min-width: #{$screen-xxl-min}) {
-//         @content;
-//     }
-//  }
