@@ -3,6 +3,7 @@ body {
   height: 100%;
   min-height: 100%;
   margin: 0;
+  font-size: larger;
   font-family: 'Roboto', sans-serif;
   background-color: #e0e5ec;
   overflow-x: hidden;
@@ -23,10 +24,14 @@ body {
 }
 
 .p_one {
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
 
   @include xl {
     font-size: larger;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 
