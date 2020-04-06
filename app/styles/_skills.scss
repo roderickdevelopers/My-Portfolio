@@ -21,17 +21,41 @@
 
 .skills_body {
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
   font-size: larger;
   margin-bottom: 100px;
 
   @include xl {
-    text-align: center;
-    margin-left: 10px;
-    margin-right: 10px;
+    text-align: left;
+    margin-left: 350px;
+    margin-right: 350px;
     font-size: x-large;
     margin-bottom: 100px;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+
+  h2 {
+      text-align: center;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+
+  a:link {
+    color: #E05C45;
+  }
+
+  a:visited {
+    color: #E05C45;
+  }
+
+  a:hover {
+    color: #F6A459;
   }
 }
 

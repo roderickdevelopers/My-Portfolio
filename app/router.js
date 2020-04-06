@@ -15,4 +15,5 @@ Router.map(function() {
   this.route('html');
   this.route('javascript');
   this.route('freecodecamp');
+  this.route('emberconf');
 });

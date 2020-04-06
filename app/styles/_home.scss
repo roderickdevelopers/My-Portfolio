@@ -8,16 +8,6 @@
     top: 0;
     background-color: #E0E5EC;
 
-    @include lg {
-      height: 100vh;
-      width: 100vw;
-    }
-
-    @include xl {
-      height: 100vh;
-      width: 100vw;
-    }
-
     .main_logo {
       flex: 1;
 
