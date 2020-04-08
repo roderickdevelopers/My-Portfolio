@@ -20,14 +20,13 @@
 }
 
 .skills_body {
-  text-align: center;
+  text-align: left;
   margin-left: 20px;
   margin-right: 20px;
   font-size: larger;
   margin-bottom: 100px;
 
   @include xl {
-    text-align: left;
     margin-left: 350px;
     margin-right: 350px;
     font-size: x-large;
