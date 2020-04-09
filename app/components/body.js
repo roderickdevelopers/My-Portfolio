@@ -17,7 +17,7 @@ export default Component.extend({
     imageBackCardFive: '/assets/images/html5back.png',
 
     imageFrontCardSix: '/assets/images/csstest.png',
-    imageBackCardSix: '/assets/images/cssbacktest.png',
+    imageBackCardSix: '/assets/images/cssback.png',
 
     imageFrontCardSeven: '/assets/images/js.png',
     imageBackCardSeven: '/assets/images/jsback.png',

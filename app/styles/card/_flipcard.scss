@@ -19,6 +19,7 @@
   transform: rotateY(180deg);
 }
 
+
 .flip-card-front,
 .flip-card-back {
   display: flex;
@@ -43,7 +44,6 @@
       width: 300px;
       height: 300px;
       align-self: center;
-
     }
   }
 }
