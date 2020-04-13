@@ -1,31 +1,45 @@
 .ember_conf {
   display: flex;
-  background-color: rgb(21, 14, 38);
+  background-color: #E05C45;
   justify-content: center;
   align-items: center;
-  padding: 15px 32px;
   text-align: left;
   font-size: 10px;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 30px;
   
 
-  @include xl {
-    font-size: 28px;
-  }
+  .learn_more {
+    box-shadow: 5px 5px 16px#be4e3b, -5px -5px 16px #c95d4a;
+    border-radius: 15px;
+    margin-left: 20px;
+    padding: 6px 10px;    
+  } 
 
+
+  @include xl {
+    font-size: 23px;
+  }
 
   a {
     text-decoration: none;
   }
 
   a:link {
-    color: #E05C45;
+    color: #ffffff;
   }
 
   a:visited {
-    color: #E05C45;
+    color: #ffffff;
   }
 
   a:hover {
-    color: #F4CA62;
+    color: #ffffff;
   }
+
+  .learn_more:hover {
+    box-shadow: inset 6px 6px 6px #be4e3b, inset -6px -6px 6px #ff6a4f;
+  }
+  
 }

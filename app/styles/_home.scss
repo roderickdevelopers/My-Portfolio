@@ -42,16 +42,26 @@
           z-index: 10000;
           height: 100px;
 
+          .linkedin_button_container {
+            margin-left: 5px;
+            margin-right: 5px;
+
+            @include xl {
+              margin-right: 10px;
+              margin-left: 10px;
+            }
+          }
+
           .linkedin_button_container:hover {
             opacity: .5;
           }
 
           .github_button_container {
-            margin-left: 10px;
+            margin-left: 5px;
             margin-right: 5px;
 
             @include xl {
-              margin-right: 20px;
+              margin-right: 10px;
               margin-left: 10px;
             }
           }
@@ -59,12 +69,28 @@
           .github_button_container:hover {
             opacity: .5;
           }
+
+          .twitter_button_container {
+            margin-left: 5px;
+            margin-right: 5px;
+
+            @include xl {
+              margin-right: 10px;
+              margin-left: 10px;
+            }
+          }
+
+          .twitter_button_container:hover {
+            opacity: .5;
+
+          }
         }
       }
 
       .hero_image_container {
         flex: 1;
         margin-top: -100px;
+        margin-bottom: -5px;
 
         img {
           width: 100%;
