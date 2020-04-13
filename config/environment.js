@@ -6,6 +6,7 @@ module.exports = function(environment) {
     environment,
     rootURL: '/',
     locationType: 'hash',
+    historySupportMiddleware: true,
     // place google fonts here to call them later
     googleFonts: [
       'Open+Sans:300,400,700',
