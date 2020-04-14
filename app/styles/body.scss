@@ -35,6 +35,19 @@ body {
   }
 }
 
+.header_body_skills {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+
+  hr {
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #000000;
+    width: 40%;
+  }
+}
+
 .main_cards_container {
   display: flex;
   width: 100%;
@@ -97,6 +110,19 @@ body {
   }
 }
 
+// Use this code for future projects!!
+// .header_body_projects {
+//   text-align: center;
+//   font-size: larger;
+//   font-weight: bold;
+
+//   hr {
+//     height: 2px;
+//     border: 0;
+//     border-top: 2px solid #000000;
+//     width: 40%;
+//   }
+// }
 
 
 
