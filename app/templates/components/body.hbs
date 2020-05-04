@@ -91,4 +91,39 @@
   {{!-- <div class="header_body_projects">
   <h1>My Projects</h1>
   <hr />
+</div>
+
+
+<div class="main_cards_container">
+  <div class="main_cards_info_container">
+    <div class="main_cards_flipcard">
+      <LinkTo @route="html">
+        <Card::Flipcard @imageFront={{this.imageFrontCardNine}} @imageBack={{this.imageBackCardNine}} />
+      </LinkTo>
+    </div>
+  </div>
+
+  <div class="main_cards_info_container">
+    <div class="main_cards_flipcard">
+      <LinkTo @route="css">
+        <Card::Flipcard @imageFront={{this.imageFrontCardTen}} @imageBack={{this.imageBackCardTen}} />
+      </LinkTo>
+    </div>
+  </div>
+
+  <div class="main_cards_info_container">
+    <div class="main_cards_flipcard">
+      <LinkTo @route="javascript">
+        <Card::Flipcard @imageFront={{this.imageFrontCardEleven}} @imageBack={{this.imageBackCardEleven}} />
+      </LinkTo>
+    </div>
+  </div>
+
+  <div class="main_cards_info_container">
+    <div class="main_cards_flipcard">
+      <LinkTo @route="freecodecamp">
+        <Card::Flipcard @imageFront={{this.imageFrontCardTwelve}} @imageBack={{this.imageBackCardTwelve}} />
+      </LinkTo>
+    </div>
+  </div>
 </div> --}}
