@@ -19,11 +19,25 @@ export default Component.extend({
     imageFrontCardSix: '/assets/images/csstest.png',
     imageBackCardSix: '/assets/images/cssback.png',
 
-    imageFrontCardSeven: '/assets/images/js.png',
+     imageFrontCardSeven: '/assets/images/js.png',
     imageBackCardSeven: '/assets/images/jsback.png',
 
     imageFrontCardEight: '/assets/images/freecodecampfront.png',
     imageBackCardEight: '/assets/images/freecodecampback.png',
+
+    // imageFrontCardNine: '/assets/images/freecodecampfront.png',
+    // imageBackCardNine: '/assets/images/freecodecampback.png',
+
+    // imageFrontCardTen: '/assets/images/freecodecampfront.png',
+    // imageBackCardTen: '/assets/images/freecodecampback.png',
+
+    // imageFrontCardEleven: '/assets/images/freecodecampfront.png',
+    // imageBackCardEleven: '/assets/images/freecodecampback.png',
+
+    // imageFrontCardTwelve: '/assets/images/freecodecampfront.png',
+    // imageBackCardTwelve: '/assets/images/freecodecampback.png'
+
+
     
 
     imageFrontCardNine: '/assets/images/embertimesfront.png',
