@@ -25,17 +25,19 @@ export default Component.extend({
     imageFrontCardEight: '/assets/images/freecodecampfront.png',
     imageBackCardEight: '/assets/images/freecodecampback.png',
 
-    // imageFrontCardNine: '/assets/images/freecodecampfront.png',
-    // imageBackCardNine: '/assets/images/freecodecampback.png',
 
-    // imageFrontCardTen: '/assets/images/freecodecampfront.png',
-    // imageBackCardTen: '/assets/images/freecodecampback.png',
 
-    // imageFrontCardEleven: '/assets/images/freecodecampfront.png',
-    // imageBackCardEleven: '/assets/images/freecodecampback.png',
+    imageFrontCardNine: '/assets/images/embertimesfront.png',
+    imageBackCardNine: '/assets/images/embertimesback.png',
 
-    // imageFrontCardTwelve: '/assets/images/freecodecampfront.png',
-    // imageBackCardTwelve: '/assets/images/freecodecampback.png'
+    imageFrontCardTen: '/assets/images/freecodecampfront.png',
+    imageBackCardTen: '/assets/images/freecodecampback.png',
+
+    imageFrontCardEleven: '/assets/images/freecodecampfront.png',
+    imageBackCardEleven: '/assets/images/freecodecampback.png',
+
+    imageFrontCardTwelve: '/assets/images/freecodecampfront.png',
+    imageBackCardTwelve: '/assets/images/freecodecampback.png'
 
 
     
