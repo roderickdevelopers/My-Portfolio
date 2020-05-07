@@ -3,7 +3,13 @@
   width: 300px;
   height: 300px;
   perspective: 1000px;
+
+  @include xxl {
+    width: 400px;
+    height: 400px;
+  }
 }
+
 
 .flip-card-inner {
   display: flex;

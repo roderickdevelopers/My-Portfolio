@@ -75,7 +75,7 @@
             margin-right: 5px;
 
             @include xl {
-              margin-right: 10px;
+              margin-right: 20px;
               margin-left: 10px;
             }
           }
@@ -91,11 +91,12 @@
         flex: 1;
         margin-top: -100px;
         margin-bottom: -5px;
-
+        
+      
         img {
           width: 100%;
           min-height: auto;
-
+          
           @include lg {
             height: 100vh;
             width: 100vw;
