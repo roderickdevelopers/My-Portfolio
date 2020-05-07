@@ -23,6 +23,9 @@ export default Component.extend({
     imageBackCardSeven: '/assets/images/jsback.png',
 
     imageFrontCardEight: '/assets/images/freecodecampfront.png',
-    imageBackCardEight: '/assets/images/freecodecampback.png'
+    imageBackCardEight: '/assets/images/freecodecampback.png',
     
+
+    imageFrontCardNine: '/assets/images/embertimesfront.png',
+    imageBackCardNine: '/assets/images/embertimesback.png'
 });
