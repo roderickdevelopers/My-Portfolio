@@ -39,5 +39,4 @@ export default Component.extend({
     imageFrontCardTwelve: '/assets/images/freecodecampfront.png',
     imageBackCardTwelve: '/assets/images/freecodecampback.png'
 
-
 });
