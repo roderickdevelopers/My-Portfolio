@@ -9,19 +9,6 @@ body {
   overflow-x: hidden;
 }
 
-.header_body {
-  text-align: center;
-  color: #31C5FF;
-  background-color: #e0e5ec;
-
-  @include md {
-    display: none;
-  }
-
-  @include xl {
-    display: none;
-  }
-}
 
 .p_one {
   text-align: left;

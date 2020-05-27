@@ -3,8 +3,7 @@
   background-color: #E05C45;
   justify-content: center;
   align-items: center;
-  text-align: left;
-  font-size: 10px;
+  font-size: 15px;
   text-align: center;
   font-weight: bolder;
   padding: 10px 30px;
@@ -14,13 +13,24 @@
   }
 
   .learn_more {
-    box-shadow: 5px 5px 16px#be4e3b, -5px -5px 16px #c95d4a;
+    box-shadow: 5px 5px 16px #be4e3b, -5px -5px 16px #c95d4a;
     border-radius: 15px;
     margin-left: 20px;
-    padding: 6px 10px; 
-    font-size: 10px;
+    padding: 0px 20px;
+    font-size: 12px;
+
+    @include md {
+      padding: 6px 20px;
+      font-size: 19px;
+    }
+
+    @include lg {
+      padding: 6px 20px;
+      font-size: 19px;
+    }
 
     @include xl {
+      padding: 6px 20px;
       font-size: 19px;
     }
   }
@@ -30,7 +40,7 @@
   }
 
   a:link {
-    color: #ffffff;
+    color: #000000;
   }
 
   a:visited {
