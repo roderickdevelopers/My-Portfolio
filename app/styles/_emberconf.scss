@@ -1,6 +1,6 @@
 .ember_conf {
   display: flex;
-  background-color: #E05C45;
+  background-color: #8695AC;
   justify-content: center;
   align-items: center;
   font-size: 15px;
@@ -13,11 +13,14 @@
   }
 
   .learn_more {
-    box-shadow: 5px 5px 16px #be4e3b, -5px -5px 16px #c95d4a;
+    box-shadow: 5px 5px 16px #727f92, -5px -5px 16px #9aabc6;
     border-radius: 15px;
     margin-left: 20px;
-    padding: 0px 20px;
+    padding: 10px 20px;
     font-size: 12px;
+    white-space: nowrap;
+    
+    
 
     @include md {
       padding: 6px 20px;
@@ -52,7 +55,7 @@
   }
 
   .learn_more:hover {
-    box-shadow: inset 6px 6px 6px #be4e3b, inset -6px -6px 6px #ff6a4f;
+    box-shadow: inset 6px 6px 6px #727f92, inset -6px -6px 6px #9aabc6;
   }
 
 }
