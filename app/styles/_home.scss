@@ -448,7 +448,17 @@
         align-items: center;
         margin-top: auto;
         
-    
+        .down_arrow_main_text {
+          display: none;
+
+          @include lg {
+            display: flex;
+          }
+
+          @include xl {
+            display: flex;
+          }
+        }
         .down_arrow_main {
           display: flex;
           flex: 1;
@@ -498,8 +508,6 @@
           cursor: pointer;
           margin-top: -100px;
           
-          
-
 
           img {
             width: 40px;

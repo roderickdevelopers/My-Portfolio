@@ -4,7 +4,7 @@ body {
   min-height: 100%;
   margin: 0;
   font-size: larger;
-  font-family: 'Roboto', sans-serif;
+ font-family: monospace;
   background-color: #e0e5ec;
   overflow-x: hidden;
 }
@@ -14,6 +14,7 @@ body {
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
+  font-family: 'Roboto Mono', monospace;
 
   @include xl {
     font-size: larger;
@@ -26,6 +27,7 @@ body {
   text-align: center;
   font-size: larger;
   font-weight: bold;
+  
 
   hr {
     height: 2px;
@@ -73,6 +75,7 @@ body {
   align-items: center;
   margin-top: 25px;
   margin-bottom: 25px;
+  
 
   @include xl {
     display: flex;
