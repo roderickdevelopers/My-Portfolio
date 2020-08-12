@@ -30,8 +30,8 @@ export default Component.extend({
     imageFrontCardNine: '/assets/images/embertimesfront.png',
     imageBackCardNine: '/assets/images/embertimesback.png',
 
-    imageFrontCardTen: '/assets/images/freecodecampfront.png',
-    imageBackCardTen: '/assets/images/freecodecampback.png',
+    imageFrontCardTen: '/assets/images/emberlearning.png',
+    imageBackCardTen: '/assets/images/emberlearningback.png',
 
     imageFrontCardEleven: '/assets/images/freecodecampfront.png',
     imageBackCardEleven: '/assets/images/freecodecampback.png',
