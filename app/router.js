@@ -19,6 +19,7 @@ Router.map(function() {
   this.route('freecodecamp');
   this.route('emberconf');
   this.route('embertimes');
+  this.route('emberlearning');
 });
 
 
