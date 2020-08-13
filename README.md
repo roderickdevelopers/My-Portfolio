@@ -1,4 +1,4 @@
-# roderick-developers
+# Roderick Developers
 
 My first Web Portfolio made with ember.js!!
 
