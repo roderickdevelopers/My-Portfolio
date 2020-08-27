@@ -1,10 +1,9 @@
 ---
 language: node_js
 node_js:
-  - "8"
+  - "10"
 
-sudo: false
-dist: trusty
+dist: xenial
 
 addons:
   chrome: stable
@@ -23,6 +22,10 @@ branches:
     - master
 
 script:
+<<<<<<< HEAD
   - npm run lint:hbs
   - npm run lint:js
   - npm test
+=======
+  - yarn test
+>>>>>>> 9230310... v3.15.1...v3.20.0
