@@ -1,5 +1,15 @@
-<div class="p_one" id="p_one">
-  <p>Hello my name is Matthew Roderick. I am very passionate about expanding my skills in web development and design. I
+<div class="skills_header" id="about_me">
+  <h1>About Me</h1>
+   <hr />
+</div>
+
+<div class="skills_body">
+   <p>Hello my name is Matthew Roderick. I am very passionate about expanding my skills in web development and design. I
+    started about six months ago with some coding classes (and no experience) and have since moved into building my own
+    projects. I code whenever I can, putting in the hours everyday after work. I hope you like my first simple website!
+    There will be a lot of projects added to this portfolio as I learn, so please come back from time to time and check
+    out at my progress. My goal is to master every FreeCodeCamp course and add several more projects to this portfolio
+    over the next year! Hello my name is Matthew Roderick. I am very passionate about expanding my skills in web development and design. I
     started about six months ago with some coding classes (and no experience) and have since moved into building my own
     projects. I code whenever I can, putting in the hours everyday after work. I hope you like my first simple website!
     There will be a lot of projects added to this portfolio as I learn, so please come back from time to time and check
@@ -7,7 +17,8 @@
     over the next year! </p>
 </div>
 
-<div class="header_body_skills">
+
+<div class="header_body_skills" id="my_skills">
   <h1>My Skills</h1>
   <hr />
 </div>
@@ -83,7 +94,7 @@
 </div>
 
 {{!-- Use this code for future projects --}}
-<div class="header_body_projects">
+<div class="header_body_projects" id="my_projects">
   <h1>My Projects and Contributions</h1>
   <hr />
 </div>
@@ -101,7 +112,7 @@
 
   <div class="main_cards_info_container">
     <div class="main_cards_flipcard">
-      <LinkTo @route="css">
+      <LinkTo @route="emberlearning">
         <Card::Flipcard @imageFront={{this.imageFrontCardTen}} @imageBack={{this.imageBackCardTen}} />
       </LinkTo>
     </div>
